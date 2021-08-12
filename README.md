@@ -16,6 +16,10 @@ An offile copy of the website can be found under [/Full website/](Archive/Proble
 * Considering the mathematical nature of the problems, i will try to find mathematical solution and optimize the code instead of Bruteforcing it to obey the "one minute rule"
 * In some problems where I find a few approaches to a problem i will write them one after another in the same .java (for example see problem [Problem 1](https://github.com/cijhho123/Project-Euler/blob/main/Solutions/Problems%200001-0009/Problem%201%20-%20Multiples%20of%203%20and%205.java)
 
+
+### What about cheating?
+Of course, it is possible for one to mindlessly copy and paste solutions one by one into Project Euler to gain ranks. Obviously, this is quite pointless, as Project Euler ranks can gain you nothing in the real world. Your account is likely to get banned, and you are only cheating yourself of mathematical learning.
+
 ### Completed Stages
 * [Problems 1-9](Solutions/Problems%200001-0009)
 * [Problems 10-19](Solutions/Problems%200010-0019)
