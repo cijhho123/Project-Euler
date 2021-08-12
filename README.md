@@ -6,8 +6,9 @@ My solutions for https://projecteuler.net
 ## What is Project Euler?
 Project Euler (named after Leonhard Euler) is a website dedicated to a series of computational problems intended to be solved with computer programs. The project attracts adults and students interested in mathematics and computer programming. Since its creation in 2001 by Colin Hughes, Project Euler has gained notability and popularity worldwide. It includes over 750 problems, with a new one added approximately every two weeks. Problems are of varying difficulty, but each is solvable in less than a minute of CPU time using an efficient algorithm on a modestly powered computer. As of 27 April 2021, Project Euler has more than 1,000,000 users who have solved at least one problem, in over 100 different programming languages.
 
-A copy of all the problems can be found [here](/Archive/Problems/Problems%20as%20Readmes), and the original can be found [here](https://projecteuler.net/progress). <br/>
-Assets such as images and external text files can be found under [/assets/](/Archive/assets/)
+A copy of all the problems can be found [/Problems/](/Archive/Problems/Problems%20as%20Readmes), and the original can be found [here](https://projecteuler.net/progress). <br/>
+Assets such as images and external text files can be found under [/assets/](/Archive/assets/). </br>
+An offile copy of the website can be found under [/Full website/](Archive/Problems/Full%20website)
 
 ## My Solutions
 * All the Solutions are written in Java.
