@@ -11,12 +11,14 @@ Assets such as images and external text files can be found under [/assets/](/Arc
 
 ## My Solutions
 * All the Solutions are written in Java.
-* sometimes, I prefer to write my own implementation of classes instead of using the build-in ones, sometimes getting creative rather than using the obvious answer can teach a valuable lesson. (for example see [Problem 13](https://github.com/cijhho123/Project-Euler/blob/main/Problems%2010-19/Problem%2013%20-%20Large%20sum.java), where i used my own big number implementation instead of using java.math.BigInteger) 
+* sometimes, I prefer to write my own implementation of classes instead of using the build-in ones, sometimes getting creative rather than using the obvious answer can teach a valuable lesson. (for example see [Problem 13](/Solutions/Problems%200010-0019/Problem%2013%20-%20Large%20sum.java), where i used my own big number implementation instead of using java.math.BigInteger) 
 * Considering the mathematical nature of the problems, i will try to find mathematical solution and optimize the code instead of Bruteforcing it to obey the "one minute rule"
-* In some problems where I find a few approaches to a problem i will write them one after another in the same .java (for example see problem [Problem 1](https://github.com/cijhho123/Project-Euler/blob/main/Problems%201-9/Problem%201%20-%20Multiples%20of%203%20and%205.java))
+* In some problems where I find a few approaches to a problem i will write them one after another in the same .java (for example see problem [Problem 1](https://github.com/cijhho123/Project-Euler/blob/main/Solutions/Problems%200001-0009/Problem%201%20-%20Multiples%20of%203%20and%205.java)
 
 ### Completed Stages
-* [Problems 1-9](https://github.com/cijhho123/Project-Euler/blob/main/Problems%201-9/)
-* [Problems 10-19](https://github.com/cijhho123/Project-Euler/tree/main/Problems%2010-19)
-* [Problems 20-29](https://github.com/cijhho123/Project-Euler/tree/main/Problems%2020-29)
-* [Problems 30-39](https://github.com/cijhho123/Project-Euler/tree/main/Problems%2030-39)
+* [Problems 1-9](Solutions/Problems%200001-0009)
+* [Problems 10-19](Solutions/Problems%200010-0019)
+* [Problems 20-29](Solutions/Problems%200020-0029)
+* [Problems 30-39](Solutions/Problems%200030-0039)
+* [Problems 40-49](Solutions/Problems%200040-0049)
+* [Problems 50-59](Solutions/Problems%200050-0059)
