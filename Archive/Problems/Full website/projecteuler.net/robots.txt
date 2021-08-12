@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /problem=
+Allow: /archives
+Allow: /recent
+Allow: /about$
+Disallow: /

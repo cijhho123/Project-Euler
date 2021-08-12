@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Colin Hughes" />
+<meta name="description" content="A website dedicated to the fascinating world of mathematics and programming" />
+<meta name="keywords" content="programming,mathematics,problems,puzzles" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Problem 252 - Project Euler</title>
+<link rel="shortcut icon" href="https://projecteuler.net/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://projecteuler.net/themes/style_main.1627114152.css">
+<link rel="stylesheet" type="text/css" href="https://projecteuler.net/themes/style_default.1596101641.css">
+<script src="https://projecteuler.net/js/mathjax_config.js"></script>
+<script src="../polyfill.io/v3/polyfill.min.js%3Ffeatures=es6"></script>
+<script id="MathJax-script" async
+   src="../cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script></head>
+
+<body>
+
+<div id="container">
+<div id="header" class="noprint">
+   <img src="https://projecteuler.net/themes/20210213/logo_default.png" alt="" />
+<div id="info_panel">
+&nbsp;&nbsp;&nbsp;<a href="https://projecteuler.net/search"><img src="https://projecteuler.net/images/icons/search_engine.png" alt="Search Problems" title="Search Problems" class="icon"></a>&nbsp;&nbsp;&nbsp;<a href="https://projecteuler.net/rss2_euler.xml"><img src="https://projecteuler.net/images/icons/news_feed.png" alt="RSS Feed" title="RSS Feed" class="icon"></a>
+</div><!--end_info_panel-->
+</div> <!--end_header-->
+<div id="navigation" class="nav noprint">
+<a href="https://projecteuler.net/about" title="About"  accesskey="h">About</a>
+<a href="https://projecteuler.net/archives" title="Archives"  accesskey="1">Archives</a>
+<a href="https://projecteuler.net/recent" title="Recent"  accesskey="2">Recent</a>
+<a href="https://projecteuler.net/news" title="News"  accesskey="3">News</a>
+<a href="https://projecteuler.net/register" title="Register"  accesskey="4">Register</a>
+<a href="https://projecteuler.net/sign_in" title="Sign In"  accesskey="5">Sign In</a>
+   <a class="hamburger" id="hamburger">
+         <div class="bar"></div>
+         <div class="bar"></div>
+         <div class="bar"></div>
+   </a>
+
+</div> <!--end_nav-->
+
+<div id="content">
+
+<div class="center print"><img src="https://projecteuler.net/images/clipart/print_page_logo.png" alt="projecteuler.net" class="no_border"></div>
+<h2>Convex Holes</h2><div id="problem_icons" class="noprint"><a href="https://projecteuler.net/minimal=252"><img src="https://projecteuler.net/images/icons/file_html.png" title="Show HTML problem content" class="icon"></a>&nbsp;<span class="tooltip"><img src="https://projecteuler.net/images/icons/info.png" class="icon"><span class="tooltiptext_right">Published on Saturday, 27th June 2009, 01:00 pm; Solved by 795;<br>Difficulty rating: 80%</span></div><div id="problem_info"><h3>Problem 252</h3></div>
+<div class="problem_content" role="problem">
+<p>
+Given a set of points on a plane, we define a convex hole to be a convex polygon having as vertices any of the given points and not containing any of the given points in its interior (in addition to the vertices, other given points may lie on the perimeter of the polygon). 
+</p>
+<p>
+As an example, the image below shows a set of twenty points and a few such convex holes. 
+The convex hole shown as a red heptagon has an area equal to 1049694.5 square units, which is the highest possible area for a convex hole on the given set of points.
+</p>
+<div class="center">
+<img src="https://projecteuler.net/project/images/p252_convexhole.gif" class="dark_img" alt="" /></div>
+<p>
+</p><p>For our example, we used the first 20 points (<var>T</var><sub>2<var>k</var>−1</sub>, <var>T</var><sub>2<var>k</var></sub>), for <var>k</var> = 1,2,…,20, produced with the pseudo-random number generator:</p>
+
+<center><table class="p252"><tr><td style="text-align:right;"><var>S</var><sub>0</sub></td>
+    <td>=<sub> </sub></td>
+    <td>290797<sub> </sub></td>
+  </tr><tr><td><var>S</var><sub><var>n</var>+1</sub></td>
+    <td>=<sub> </sub></td>
+    <td><var>S</var><sub><var>n</var></sub><sup>2</sup> mod 50515093</td>
+  </tr><tr><td style="text-align:right;"><var>T</var><sub><var>n</var></sub></td>
+    <td>=<sub> </sub></td>
+    <td>( <var>S</var><sub><var>n</var></sub> mod 2000 ) − 1000<sup> </sup></td>
+  </tr></table></center>
+
+<p>
+<i>i.e.</i> (527, 144), (−488, 732), (−454, −947), …
+</p>
+<p>
+What is the maximum area for a convex hole on the set containing the first 500 points in the pseudo-random sequence?<br /> Specify your answer including one digit after the decimal point.
+</p>
+
+
+
+
+
+</div><br>
+<br></div> <!--end_content-->
+</div> <!--end_container-->
+
+<div id="footer" class="noprint">
+Project Euler: <a href="https://projecteuler.net/copyright">Copyright Information</a> | <a href="https://projecteuler.net/privacy">Privacy Policy</a>
+</div> <!--end_footer-->
+<div id="modal_window">
+   <div id="modal_content" class="message_body">
+   <p>The page has been left unattended for too long and that link/button is no longer active. Please refresh the page.</p>
+   </div>
+</div> <!--end_modal_window-->
+<script src="https://projecteuler.net/js/general.1596455129.js"></script>
+
+</body>
+</html>

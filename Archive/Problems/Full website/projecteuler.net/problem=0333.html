@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Colin Hughes" />
+<meta name="description" content="A website dedicated to the fascinating world of mathematics and programming" />
+<meta name="keywords" content="programming,mathematics,problems,puzzles" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Problem 333 - Project Euler</title>
+<link rel="shortcut icon" href="https://projecteuler.net/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://projecteuler.net/themes/style_main.1627114152.css">
+<link rel="stylesheet" type="text/css" href="https://projecteuler.net/themes/style_default.1596101641.css">
+<script src="https://projecteuler.net/js/mathjax_config.js"></script>
+<script src="../polyfill.io/v3/polyfill.min.js%3Ffeatures=es6"></script>
+<script id="MathJax-script" async
+   src="../cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script></head>
+
+<body>
+
+<div id="container">
+<div id="header" class="noprint">
+   <img src="https://projecteuler.net/themes/20210213/logo_default.png" alt="" />
+<div id="info_panel">
+&nbsp;&nbsp;&nbsp;<a href="https://projecteuler.net/search"><img src="https://projecteuler.net/images/icons/search_engine.png" alt="Search Problems" title="Search Problems" class="icon"></a>&nbsp;&nbsp;&nbsp;<a href="https://projecteuler.net/rss2_euler.xml"><img src="https://projecteuler.net/images/icons/news_feed.png" alt="RSS Feed" title="RSS Feed" class="icon"></a>
+</div><!--end_info_panel-->
+</div> <!--end_header-->
+<div id="navigation" class="nav noprint">
+<a href="https://projecteuler.net/about" title="About"  accesskey="h">About</a>
+<a href="https://projecteuler.net/archives" title="Archives"  accesskey="1">Archives</a>
+<a href="https://projecteuler.net/recent" title="Recent"  accesskey="2">Recent</a>
+<a href="https://projecteuler.net/news" title="News"  accesskey="3">News</a>
+<a href="https://projecteuler.net/register" title="Register"  accesskey="4">Register</a>
+<a href="https://projecteuler.net/sign_in" title="Sign In"  accesskey="5">Sign In</a>
+   <a class="hamburger" id="hamburger">
+         <div class="bar"></div>
+         <div class="bar"></div>
+         <div class="bar"></div>
+   </a>
+
+</div> <!--end_nav-->
+
+<div id="content">
+
+<div class="center print"><img src="https://projecteuler.net/images/clipart/print_page_logo.png" alt="projecteuler.net" class="no_border"></div>
+<h2>Special partitions</h2><div id="problem_icons" class="noprint"><a href="https://projecteuler.net/minimal=333"><img src="https://projecteuler.net/images/icons/file_html.png" title="Show HTML problem content" class="icon"></a>&nbsp;<span class="tooltip"><img src="https://projecteuler.net/images/icons/info.png" class="icon"><span class="tooltiptext_right">Published on Saturday, 16th April 2011, 01:00 pm; Solved by 1163;<br>Difficulty rating: 35%</span></div><div id="problem_info"><h3>Problem 333</h3></div>
+<div class="problem_content" role="problem">
+<p>All positive integers can be partitioned in such a way that each and every term of the partition can be expressed as 2<sup>i</sup>x3<sup>j</sup>, where i,j ≥ 0.</p>
+
+<p>Let's consider only such partitions where none of the terms can divide any of the other terms.
+<br />For example, the partition of 17 = 2 + 6 + 9 = (2<sup>1</sup>x3<sup>0</sup> + 2<sup>1</sup>x3<sup>1</sup> + 2<sup>0</sup>x3<sup>2</sup>) would not be valid since 2 can divide 6. Neither would the partition 17 = 16 + 1 = (2<sup>4</sup>x3<sup>0</sup> + 2<sup>0</sup>x3<sup>0</sup>) since 1 can divide 16. The only valid partition of 17 would be 8 + 9 = (2<sup>3</sup>x3<sup>0</sup> + 2<sup>0</sup>x3<sup>2</sup>).</p>
+
+<p>Many integers have more than one valid partition, the first being 11 having the following two partitions.
+<br />11 = 2 + 9 = (2<sup>1</sup>x3<sup>0</sup> + 2<sup>0</sup>x3<sup>2</sup>)
+<br />11 = 8 + 3 = (2<sup>3</sup>x3<sup>0</sup> + 2<sup>0</sup>x3<sup>1</sup>)</p>
+
+<p>Let's define P(<var>n</var>) as the number of valid partitions of <var>n</var>. For example, P(11) = 2.</p>
+
+<p>Let's consider only the prime integers <var>q</var> which would have a single valid partition such as P(17).</p>
+
+<p>The sum of the primes <var>q</var> &lt;100 such that P(<var>q</var>)=1 equals 233.</p>
+
+<p>Find the sum of the primes <var>q</var> &lt;1000000 such that P(<var>q</var>)=1.</p>
+</div><br>
+<br></div> <!--end_content-->
+</div> <!--end_container-->
+
+<div id="footer" class="noprint">
+Project Euler: <a href="https://projecteuler.net/copyright">Copyright Information</a> | <a href="https://projecteuler.net/privacy">Privacy Policy</a>
+</div> <!--end_footer-->
+<div id="modal_window">
+   <div id="modal_content" class="message_body">
+   <p>The page has been left unattended for too long and that link/button is no longer active. Please refresh the page.</p>
+   </div>
+</div> <!--end_modal_window-->
+<script src="https://projecteuler.net/js/general.1596455129.js"></script>
+
+</body>
+</html>
