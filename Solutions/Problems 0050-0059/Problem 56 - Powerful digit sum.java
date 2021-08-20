@@ -1,4 +1,4 @@
-/*	Problem 55 - Powerful digit sum:
+/*	Problem 56 - Powerful digit sum:
   	
   	
 	A googol (10^100) is a massive number: one followed by one-hundred zeros; 
