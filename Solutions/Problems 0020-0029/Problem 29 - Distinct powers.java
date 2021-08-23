@@ -69,3 +69,4 @@ public class projectEuler {
 		return 1; 
 	}
 }
+ 
