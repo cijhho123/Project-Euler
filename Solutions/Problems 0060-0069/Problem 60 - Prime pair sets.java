@@ -16,7 +16,7 @@ import java.util.HashMap;
 	public class projectEuler {
 		
 		/*	Important note:
-			This solution run in ~35 seconds. although it obeys the "1 minute rule" I wan't to revise this code later on and 
+			This solution run in ~35 seconds. although it obeys the "1 minute rule" I want to revise this code later on and 
 			optimize it.
 			
 			One significant optimization is as following:
