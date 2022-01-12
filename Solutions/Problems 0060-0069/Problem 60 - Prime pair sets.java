@@ -35,7 +35,7 @@ import java.util.HashMap;
 		
 		public static void main (String [] args){
 			
-			//NOTE: at the end of the programs there a comparison of different ways to connect to strings
+			//NOTE: at the end of the programs there a comparison of different ways two connect to strings
 			
 			long time = System.nanoTime();
 			
@@ -139,7 +139,7 @@ import java.util.HashMap;
 		}
 
 		public static boolean isPrimePair (String p1, String p2) {
-			//NOTE: at the end of the programs there a comparison of different ways to connect to strings
+			//NOTE: at the end of the programs there is a comparison of different ways to connect to strings
 			if(isPrime(p1+p2))
 				if(isPrime(p2+p1))
 					return true;
