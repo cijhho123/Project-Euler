@@ -1,6 +1,6 @@
 # Content of all the problems in html form.
 
-## Introdiction
+## introduction
 1. Fetch all the raw filles using *wget* </br>
 <code> wget https://projecteuler.net/minimal={0001..0761} </code>   
 (change 0761 to the latest problem on the site)
@@ -14,5 +14,5 @@
 
 4. Upload it to github </br>
 
-### Cool one liner:
+### Cool one liner, so you won't have to wait for each step to complete before executing the next one
 wget https://projecteuler.net/minimal={0001..0761} && rename 's/minimal=/Problem_/' * && for f in *; do mv "$f" "$f.md"; done 
